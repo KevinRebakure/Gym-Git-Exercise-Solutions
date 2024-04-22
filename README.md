@@ -54,4 +54,12 @@
 
 ### Exercise 1
 
-from 56
+1. git switch -c 'ft/bundle-2'
+2. git add .
+3. git commit -m "Commited ft/bundle-2"
+4. git push
+5. git push --set-upstream origin ft/bundle-2
+
+### Exercise 2
+
+from 64
