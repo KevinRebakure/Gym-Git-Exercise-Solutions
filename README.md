@@ -170,3 +170,4 @@
 17. git commit -m "footer changes squashing"
 18. git push --set-upstream origin ft/squashing
 19. history
+
