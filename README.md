@@ -126,3 +126,24 @@
 41. git branch ft/home-page-redesign
 42. git log --oneline
 
+### Exercise 2
+
+1. git add .
+2. git commit -m "updated README file"
+3. git push
+4. git switch main
+5. git pull
+6. git switch ft/faq-paege
+7. git switch ft/faq-page
+8. git branch
+9. git switch main
+10. git commit -a -m "new chages in the main branch in home.html file"
+11. git push
+12. git pull
+13. git push
+14. git switch ft/home-page-redesign
+15. git rebase main
+16. git commit -a -m "new changes in home.html file"
+17. git push
+18. git push --set-upstream origin ft/home-page-redesign
+19. history
