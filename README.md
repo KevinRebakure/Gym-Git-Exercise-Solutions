@@ -52,6 +52,30 @@
 
 ## Bundle 2
 
-### Exercise 1
+### Exercise 2
 
-from 56
+1.  git status 2. git switch main 3. git branch 4. git switch dev 5. git switch 'ft/bundle-2' 6. git switch main 7. git pull 8. git commit -a -m "Made new changes in services.html on main branch" 9. git push
+2.  git switch -c 'ft/service-redesign'
+3.  git branch
+4.  git switch ft/service-redesign
+5.  git pull
+6.  git switch main
+7.  git branch -d ft/service-redesign
+8.  git branch
+9.  git switch -c ft/service-redesign
+10. git commit -a -m "new changes in services.html on ft/service-redesign branch"
+11. git push
+12. git push --set-upstream origin ft/service-redesign
+13. git branch
+14. git switch main
+15. git commit -a -m "New changes on services.html on main branch but affecting the same line as the previous one"
+16. git push
+17. git switch ft/service-redesign
+18. git diff main ft/service-redesign
+19. git merge main
+20. git commit -m "Fixed the merge merging main into ft/service-redesign"
+21. git add .
+22. git commit -m "Fixed merge conflicts from main to ft/service-redesign"
+23. git push
+24. git switch main
+
