@@ -148,3 +148,25 @@
 16. git push git-copy
 17. git remote
 18. history
+
+### Exercise 2
+
+1.  git add .
+2.  git commit -m "updated README file"
+3.  git push
+4.  git switch -c ft/footer
+5.  git add .
+6.  git commit -m "changes in about.html"
+7.  git add .
+8.  git status
+9.  git commit -m "changes in contact.html"
+10. git push
+11. git push --set-upstream origin ft/footer
+12. git switch main
+13. git branch ft/squashing
+14. git switch ft/squashing
+15. git merge --squash ft/footer
+16. git add .
+17. git commit -m "footer changes squashing"
+18. git push --set-upstream origin ft/squashing
+19. history
