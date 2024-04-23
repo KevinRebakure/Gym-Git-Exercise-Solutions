@@ -126,3 +126,25 @@
 41. git branch ft/home-page-redesign
 42. git log --oneline
 
+## Bundle 4
+
+### Exercise 1
+
+1.  git add .
+2.  git commit -m "updated the README file"
+3.  git push
+4.  git switch main
+5.  git remote add git-copy https://github.com/KevinRebakure/second-repository.git
+6.  git remote
+7.  git commit -a -m "made new changes to the home"
+8.  git push
+9.  git pull
+10. git commit -m "merge conflict resolved"
+11. git push
+12. git pull
+13. git add .
+14. git commit -m "merge conflict resolved"
+15. git push
+16. git push git-copy
+17. git remote
+18. history
